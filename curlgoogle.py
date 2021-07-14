@@ -1,7 +1,9 @@
-#!/usr/bin/python'''
+#!/usr/bin/python
+'''
 A quick python script to automate curl->googledrive interfacing
 This should require nothing more than the system python version and curl. Written for python2.7 (with 3 in mind).Dan Ellis 2020
-'''import os,sys,jsonif sys.version[0]=='3':
+'''
+import os,sys,jsonif sys.version[0]=='3':
   raw_input = lambda(x): input(x)##############################
 #Owner information goes here!#
 ##############################
